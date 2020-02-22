@@ -1,7 +1,105 @@
 html {
-   font-family: Lato;
+   font-size: 10px;
 }
 
 body {
     font-family: Lato;
 }
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.header {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+    border-bottom: 5px solid #323746;;
+}
+.header__navigation {
+    padding-top: 34px;
+    padding-left: 40px;
+
+}
+.logo {
+    font-size: 2.5rem;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigation__item {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #f06c64;
+    list-style: none;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.phones {
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+    max-width: 1020px;
+    justify-content: space-between;
+}
+.phones__content {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+.services {
+    background-color: #f2f2f2;
+    border-bottom: #ffffff;
+    max-width: 1020px;
+}
+.services__content {
+    padding-top: 50px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.layout-3-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-of-service 
+{
+    margin-bottom: 27px;
+    justify-content: space-between;
+}
+.service_title {
+    font-size: 1.8rem;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+
+}
+.service_discribe {
+    font-size: 1.2rem;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+.sirvice_icon {
+    width: 59px;
+    height: 59px;
+}
+
