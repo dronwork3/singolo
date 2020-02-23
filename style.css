@@ -1,10 +1,12 @@
+@import "fonts.css";
 html {
    font-size: 10px;
 }
 
 body {
-    font-family: Lato;
     margin: 0;
+    padding: 0;
+    
 }
 .wrapper {
     max-width: 1020px;
@@ -14,7 +16,7 @@ body {
     width: 1020px;
     height: 89px;
     background-color: #2d303a;
-    border-bottom: 5px solid #323746;;
+    border-bottom: 6px solid #323746;;
     margin: 0 auto;
 }
 .header__navigation {
@@ -27,10 +29,13 @@ body {
 }
 .logo {
     font-size: 2.5rem;
+    letter-spacing: -0.05rem;
     color: #ffffff;
-    font-family: "Lato";
-    font-weight: 700;
+    font-family: 'Lato3', Verdana, sans-serif;
     text-transform: uppercase;
+}
+.color_star {
+    color:  #f06c64;
 }
 .navigation {
     display: flex;
@@ -41,8 +46,8 @@ body {
 }
 .navigation__item {
     font-size: 1.2rem;
-    font-weight: 700;
     color: #f06c64;
+    font-family: 'Lato3', Verdana, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -50,13 +55,16 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
+.select {
+    color: #f06c64;
+}
 .phones {
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
     max-width: 1020px;
     justify-content: space-between;
     margin: 0 auto;
-    height: 600px;
+    height: 593px;
 }
 .phones__content {
     display: flex;
@@ -88,61 +96,61 @@ body {
     border-bottom: #ffffff;
     max-width: 1020px;
     margin: 0 auto;
-    padding-top: 68px;
+    padding-top: 30px;
 }
 .services__content {
-    
-    font-family: "Lato";
-    
     margin-left: 40px;
 }
 .service_header {
     font-size: 3rem;
-    font-weight: 900;
+    font-family: "Lato4", Verdana, sans-serif;
     color: #666d89;
+    letter-spacing: -0.02rem;
 }
 .service_header_discribe {
-    width: 940px;
     font-size: 1.8rem;
     color: #767e9e;
-    font-family: "Lato";
-    font-weight: 300;
+    font-family: "Lato2", Verdana, sans-serif;
+    line-height: 30px;
+    letter-spacing: -0.008rem;
 }
 .layout-3-column {
-    padding-top: 55px;
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 40px;
-    margin-right: 41px;
+    margin-right: 40px;
 }
 .item-of-service 
 {
     display: flex;
     justify-content: space-between;
     width: 299px;
-    margin-bottom: 27px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 .service_title {
+    margin: 0;
     font-size: 1.8rem;
     color: #666d89;
-    font-family: "Lato";
-    font-weight: 900;
+    font-family: "Lato4", Verdana, sans-serif;
 
 }
 .service_discribe {
     font-size: 1.2rem;
     color: #767e9e;
-    font-family: "Lato";
-    font-weight: 400;
+    font-family: "Lato1", Verdana, sans-serif;
     margin: 8px 0 0;
     height: 66px;
+    line-height: 22px;
+    letter-spacing: 0.0562rem;
 }
 .service_icon {
     width: 59px;
     height: 59px;
 }
 .service_block {
-    width: 220px;
+    width: 225px;
 }
 
