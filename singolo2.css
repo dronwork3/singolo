@@ -37,18 +37,18 @@ body {
     margin-bottom: 0;
 }
 .porfolio__header__navigation {
-    margin: 10px 0 0 1px;
+    margin: 12px 0px 0px;
 }
 .navigation {
     box-sizing: border-box;
     font-size: 1.2rem;
     letter-spacing: -0.03rem;
-    padding: 2px 3px 3px;
+    padding: 2px 7px 3px;
     margin-right: 10px;
     border-radius: 5px;
     cursor: pointer;
     color: #767e9e;
-    font-family: 'Lato', Verdana, sans-serif;
+    font-family: 'Lato1', Verdana, sans-serif;
 }
 .navigation:hover {
     color: #c5c5c5;
@@ -65,18 +65,15 @@ body {
 .layout-4-column {
 	display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-height: 623px;
-    overflow: hidden;
 }
 .portfolio__photos {
-    margin: 0 0 0 40px;
-	padding-bottom: 47px;
+    margin-top: 23px;
 }
 
 .portfolio__photo {
-    width: calc( (100% - 20px) / 4);
-	margin: 0 0 9px;
+    width: calc( (980px - 20px) / 4);
+    margin-bottom: 16px;
+
 }
 
 .portfolio__photo:nth-child(n+13) {
@@ -84,18 +81,20 @@ body {
 }
 .photo {
     width: 220px;
-	height: 187px;
+    height: 187px;
 }
 
 .aboutus {
     background-color: #f2f2f2;
     border-bottom: solid 6px #ffffff ;
+    padding-bottom: 43px;
 }
 
 .aboutus__header {
     font-size: 3rem;
     margin: 0;
     padding-top: 60px;
+    letter-spacing: -0.02rem;
     color: #666d89;
     font-family: 'Lato4', Verdana, sans-serif;
 }
@@ -103,7 +102,9 @@ body {
 .aboutus__describe {
     font-size: 1.8rem;
     margin: 0;
+    letter-spacing: -0.008rem;
     padding-top: 18px;
+    line-height: 3rem;
     color: #767e9e;
     font-family: 'Lato1', Verdana, sans-serif;
 }
@@ -112,12 +113,12 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-right: 83px;
 }
 
 .aboutus__man {
     padding-top: 45px;
     width: 303px;
-    font-family: 'Lato4', Verdana, sans-serif;
 }
 
 .aboutus__name {
@@ -133,6 +134,8 @@ body {
     margin: 0;
     color: #767e9e;
     font-family: 'Lato2', Verdana, sans-serif;
+    letter-spacing: -0.0048rem;
+    line-height: 2.2rem;
 }
 
 .aboutus__icon {
@@ -140,4 +143,8 @@ body {
     justify-content: space-between;
     padding: 21px 0;
     width: 155px; 
+}
+
+.photo-us {
+    width: 303px;
 }
