@@ -1,0 +1,143 @@
+@import "fonts.css";
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    padding-bottom: 47px;
+    background-color: #2d303a;
+    border-bottom: solid 6px  #323746;
+}
+
+.portfolio__header {
+    font-size: 3rem;
+    padding-top: 60px;
+    color: #666d89;
+    letter-spacing: -0.02rem;
+    font-family: 'Lato4', Verdana, sans-serif;
+    margin:0;
+}
+
+.portfolio__header__describe {
+    font-family: 'Lato2', sans-serif;
+    font-size: 1.8rem;
+    text-align: justify;
+    color: #767e9e;
+    line-height: 30px;
+    letter-spacing: -0.022rem;
+    margin-bottom: 0;
+}
+.porfolio__header__navigation {
+    margin: 10px 0 0 1px;
+}
+.navigation {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    letter-spacing: -0.03rem;
+    padding: 2px 3px 3px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #767e9e;
+    font-family: 'Lato', Verdana, sans-serif;
+}
+.navigation:hover {
+    color: #c5c5c5;
+    border: 1px solid #c5c5c5;
+}
+
+.selected {
+    color: #c5c5c5;
+    border: 1px solid #c5c5c5;
+}
+.bordered {
+    border: 1px solid #666d89;
+}
+.layout-4-column {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 623px;
+    overflow: hidden;
+}
+.portfolio__photos {
+    margin: 0 0 0 40px;
+	padding-bottom: 47px;
+}
+
+.portfolio__photo {
+    width: calc( (100% - 20px) / 4);
+	margin: 0 0 9px;
+}
+
+.portfolio__photo:nth-child(n+13) {
+    display: none;
+}
+.photo {
+    width: 220px;
+	height: 187px;
+}
+
+.aboutus {
+    background-color: #f2f2f2;
+    border-bottom: solid 6px #ffffff ;
+}
+
+.aboutus__header {
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 60px;
+    color: #666d89;
+    font-family: 'Lato4', Verdana, sans-serif;
+}
+
+.aboutus__describe {
+    font-size: 1.8rem;
+    margin: 0;
+    padding-top: 18px;
+    color: #767e9e;
+    font-family: 'Lato1', Verdana, sans-serif;
+}
+
+.layout-3-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutus__man {
+    padding-top: 45px;
+    width: 303px;
+    font-family: 'Lato4', Verdana, sans-serif;
+}
+
+.aboutus__name {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 11px 0;
+    color: #666d89;
+    font-family: 'Lato4', Verdana, sans-serif;
+}
+
+.aboutus__people__describe {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #767e9e;
+    font-family: 'Lato2', Verdana, sans-serif;
+}
+
+.aboutus__icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
+    width: 155px; 
+}
