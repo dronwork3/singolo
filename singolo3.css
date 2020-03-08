@@ -1,0 +1,133 @@
+@import './fonts.css';
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.form {
+    padding-top: 70px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+.form__header {
+    font-size: 3rem;
+    font-family: 'Lato4', Verdana, sans-serif;
+    color:  #f0d8d9;
+    margin: 0;
+}
+
+.form__describe {
+    font-size: 1.8rem;
+    font-family: 'Lato1', Verdana, sans-serif;
+    color:  #f0d8d9;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.form__input {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.forms {
+    max-width: 591px;
+    padding-top: 44px;
+    padding-bottom: 48px;
+}
+
+.form__field{
+    border-radius: 5px;
+    background-color: #d6564f;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 14px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.text_area{
+    height: 182px;
+
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #d6564f;
+    border: none;
+    color: #f48c8f;
+    font-size: 1.2rem;
+}
+
+.form__field::placeholder {
+    font-family: 'Lato2', Verdana, sans-serif;
+    color: #f48c8f;
+    font-size: 1.2rem;
+}
+
+.contact-inf {
+    color: #f0d8d9;
+    width: 301px;
+}
+
+.contact-inf__header {
+    font-size: 1.8rem;
+    font-family: 'Lato4', Verdana, sans-serif;
+    padding-top: 44px;
+    margin: 0;
+}
+
+.contact-inf__describe {
+    font-size: 1.2;
+    font-family: 'Lato2', Verdana, sans-serif;
+    padding-top: 11px;
+}
+
+.contact__adres {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+}
+
+.contact__email {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+}
+
+.contact__phone {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+}
+
+.footer {
+    background-color: #2d303a;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    width: 155px;
+    padding: 21px 0;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #666d89;
+  }
