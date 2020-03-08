@@ -68,6 +68,9 @@ body {
     border: none;
     color: #f48c8f;
     font-size: 1.2rem;
+    font-family: 'Lato2', Verdana, sans-serif;
+    cursor: pointer;
+    padding: 7px 14px;
 }
 
 .form__field::placeholder {
@@ -92,6 +95,7 @@ body {
     font-size: 1.2;
     font-family: 'Lato2', Verdana, sans-serif;
     padding-top: 11px;
+    text-align: justify;
 }
 
 .contact__adres {
@@ -99,24 +103,50 @@ body {
     align-items: center;
     margin: 0;
 }
-
+.adres {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato2', Verdana, sans-serif;
+    width: 300px;
+    margin-left: 9px;
+    text-decoration: none;
+    color: #f0d8d9;
+}
 .contact__email {
     display: inline-flex;
     align-items: center;
     margin: 0;
 }
+.email {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato2', Verdana, sans-serif;
+    width: 300px;
+    margin-left: 9px;
+    text-decoration: none;
+    color: #f0d8d9;
 
+}
 .contact__phone {
     display: inline-flex;
     align-items: center;
     margin: 0;
 }
-
+.phone {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato2', Verdana, sans-serif;
+    width: 300px;
+    margin-left: 9px;
+    text-decoration: none;
+    color: #f0d8d9;
+}
 .footer {
     background-color: #2d303a;
-    align-items: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
 }
 
 .social {
@@ -128,6 +158,8 @@ body {
 
 .footer__copyright {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-family: 'Lato2', Verdana, sans-serif;
+    margin-top: 20px;
     color: #666d89;
+    align-items: center;
   }
