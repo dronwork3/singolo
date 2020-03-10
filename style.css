@@ -51,6 +51,9 @@ body {
     list-style: none;
     letter-spacing: -0.02rem;
 }
+.link:hover {
+    color: #f06c64;
+}
 .navigation__item:not(:first-child)::before {
     content: "\2219";
     display: inline-block;
@@ -94,6 +97,12 @@ body {
 .right_arrow {
     margin-right: 40px;
     cursor: pointer;
+}
+.left_arrow:hover {
+    filter: brightness(80%);
+}
+.right_arrow:hover {
+    filter: brightness(80%);
 }
 .services {
     background-color: #f2f2f2;
@@ -282,7 +291,10 @@ body {
     padding: 21px 0;
     width: 155px; 
 }
-
+.icon:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+}
 .photo-us {
     width: 303px;
 }
@@ -347,7 +359,9 @@ body {
     cursor: pointer;
     padding: 5px 14px;
 }
-
+.button:hover {
+    border: solid;
+}
 .form__field::placeholder {
     font-family: 'Lato2', Verdana, sans-serif;
     color: #f48c8f;
@@ -454,7 +468,10 @@ body {
     padding: 21px 0;
     justify-content: space-between;
 }
-
+.icon2:hover {
+    filter: opacity(60%);
+    cursor: pointer;
+}
 .footer__copyright {
     font-size: 1.2rem;
     font-family: 'Lato2', Verdana, sans-serif;
