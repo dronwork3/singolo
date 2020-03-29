@@ -7,35 +7,82 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div class = "empty"></div>
     <header class = "header">
-        <div class = "wrapper">
+        <div class = "wrapper wrapper__header">
             <nav class = "header__navigation">
                 <h1 class = "logo">singolo<span class = "color_star">*</span></h1>
                 <ul class = "navigation">
                     <li class = "navigation__item"><a class = "link select" href = "#">home</a></li>
-                    <li class = "navigation__item"><a class = "link" href = "#">services</a></li>
-                    <li class = "navigation__item"><a class = "link" href = "#">portfolio</a></li>
-                    <li class = "navigation__item"><a class = "link" href = "#">about</a></li>
-                    <li class = "navigation__item"><a class = "link" href = "#">contact</a></li>
+                    <li class = "navigation__item"><a class = "link" href = "#services">services</a></li>
+                    <li class = "navigation__item"><a class = "link" href = "#portfolio">portfolio</a></li>
+                    <li class = "navigation__item"><a class = "link" href = "#about">about</a></li>
+                    <li class = "navigation__item"><a class = "link" href = "#contact">contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class = "phones">
-        <div class = "wrapper">
-            <div class = "phones__content">
-                <img class = "left_arrow" src = "assets/img/left.png" alt = "left arrow">
-                <div class = "phone__vertical">
-                    <img src = "assets/img/iphone-vertical.png" alt = "vertical phone">
+    <div class="carousel">
+        <div class="wrapper carousel__wrapper">
+          <div class="carousel__container">
+            <div class="carousel__item carousel__item_active">
+              <div class="carousel__description">
+                <div class="phone_medium phone_medium_vertical">
+                  <img class="phone-shadow__image" src="./assets/img/medium-phone/phone-shadow.png"
+                    alt="phone shadow">
+                  <img class="phone__image" src="./assets/img/medium-phone/phone.png" alt="phone">
+                  <img class="phone-display__image phone-display__image_active"
+                    src="./assets/img/medium-phone/phone-display-yellow.png" alt="phone display">
+                  <div class="phone__button_medium"></div>
                 </div>
-                <div class = "phone__horizontal">
-                    <img src = "assets/img/iphone-horizontal.png" alt = "horizontal phone">
+                <div class="phone_medium phone_medium_horizontal">
+                  <img class="phone-shadow__image" src="./assets/img/medium-phone/phone-shadow-horizontal.png"
+                    alt="phone shadow">
+                  <img class="phone__image" src="./assets/img/medium-phone/phone-horizontal.png" alt="phone">
+                  <img class="phone-display__image phone-display__image_active"
+                    src="./assets/img/medium-phone/phone-display-blue.png" alt="phone display">
+                  <div class="phone__button_medium"></div>
                 </div>
-                <img class = "right_arrow" src = "assets/img/right.png" alt = "right arrow">
+              </div>
             </div>
+            <div class="carousel__item">
+              <div class="carousel__description">
+                <div class="phone_small phone_small_left">
+                  <img class="phone-shadow__image" src="./assets/img/small-phone/phone-shadow.png"
+                    alt="phone shadow">
+                  <img class="phone__image" src="./assets/img/small-phone/phone.png" alt="phone">
+                  <img class="phone-display__image phone-display__image_active"
+                    src="./assets/img/small-phone/phone-display-yellow.png" alt="phone display">
+                  <div class="phone__button_small"></div>
+                </div>
+                <div class="phone_large">
+                  <img class="phone-shadow__image" src="./assets/img/large-phone/phone-shadow.png"
+                    alt="phone shadow">
+                  <img class="phone__image" src="./assets/img/large-phone/phone.png" alt="phone">
+                  <img class="phone-display__image phone-display__image_active"
+                    src="./assets/img/large-phone/phone-display-green.png" alt="phone display">
+                  <div class="phone__button_large"></div>
+                </div>
+                <div class="phone_small phone_small_right">
+                  <img class="phone-shadow__image" src="./assets/img/small-phone/phone-shadow.png"
+                    alt="phone shadow">
+                  <img class="phone__image" src="./assets/img/small-phone/phone.png" alt="phone">
+                  <img class="phone-display__image phone-display__image_active"
+                    src="./assets/img/small-phone/phone-display-yellow.png" alt="phone display">
+                  <div class="phone__button_small"></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__control carousel__control_left">
+              <div class="arrow arrow_left"></div>
+            </div>
+            <div class="carousel__control carousel__control_right">
+              <div class="arrow arrow_right"></div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class = services>
+      </div>
+    <section id = "services" class = services>
         <div class = "wrapper">
             <div class = "services__content">
                 <h2 class = "service_header">Our Services</h2>
@@ -95,58 +142,34 @@
             </div>
         </div>
     </section>
-    <section class = "portfolio">
+    <section id="portfolio" class = "portfolio">
         <div class = "wrapper">
             <h2 class = "portfolio__header">Portfolio</h2>
             <p class = "portfolio__header__describe">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             <div class = " porfolio__header__navigation">
-                <span class="navigation_portfolio selected">All</span>
+                <span class="navigation_portfolio bordered">All</span>
                 <span class="navigation_portfolio bordered">Web Design</span>
                 <span class="navigation_portfolio bordered">Graphic Design</span>
                 <span class="navigation_portfolio bordered">Artwork</span>
             </div>   
-            <div class = "portfolio__photos"></div>
-                <div class = "layout-4-column">
-                <div class="portfolio__photo__first">
-                    <img class="photo" src="assets/img/1.jpg" alt="photo">
-                </div>
-                <div class="portfolio__photo__first">
-                    <img class="photo" src="assets/img/2.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo__first">
-                    <img class="photo" src="assets/img/3.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo__first">
-                    <img class="photo" src="assets/img/4.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/5.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/6.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/7.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/8.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/9.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/10.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/11.jpg" alt="photo" >
-                </div>
-                <div class="portfolio__photo">
-                    <img class="photo" src="assets/img/12.jpg" alt="photo" >
-                </div>
+            <div class = "portfolio__photos "></div>
+                <div class = "layout-4-column project-wrapper">
+                    <img class="project-image" src="./assets/img/1.jpg" alt="1">
+                    <img class="project-image" src="./assets/img/2.jpg" alt="2">
+                    <img class="project-image" src="./assets/img/3.jpg" alt="3">
+                    <img class="project-image" src="./assets/img/4.jpg" alt="4">
+                    <img class="project-image" src="./assets/img/5.jpg" alt="5">
+                    <img class="project-image" src="./assets/img/6.jpg" alt="6">
+                    <img class="project-image" src="./assets/img/7.jpg" alt="7">
+                    <img class="project-image" src="./assets/img/8.jpg" alt="8">
+                    <img class="project-image" src="./assets/img/9.jpg" alt="9">
+                    <img class="project-image" src="./assets/img/10.jpg" alt="10">
+                    <img class="project-image" src="./assets/img/11.jpg" alt="11">
+                    <img class="project-image" src="./assets/img/12.jpg" alt="12">
                 </div>
         </div>
     </section>
-    <section class = "aboutus">
+    <section id = "about" class = "aboutus">
         <div class = "wrapper">
             <div class = "aboutus__header">About Us</div>
             <div class = "aboutus__describe">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
@@ -187,18 +210,18 @@
             </div>
         </div>
     </section>
-    <section class = "form">
+    <section id = "contact" class = "form">
         <div class = "wrapper form__wrapper">
             <h2 class = "form__header">Get a Quote</h2>
             <p class = "form__describe">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
                 commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
                 commodo, tortor mauris condimentum nibh.</p>
             <div class = "form__input">
-                <form class = "forms">
+                <form id = "forms" class = "forms" action="" method="POST" onsubmit="send(); return false;">
                     <input class = "form__field" type = "text" name = "name" placeholder = "Name(Requaired)">    
                     <input class = "form__field" type = "email" name = "email" placeholder = "Email(Requaired)">
-                    <input class = "form__field" type = "text" name = "subject" placeholder = "Subject">
-                    <textarea class = "form__field text_area" name = "describe" placeholder = "Describe your object int detail..."></textarea>
+                    <input id = "subject" class = "form__field" type = "text" name = "subject" placeholder = "Subject">
+                    <textarea id = "details" class = "form__field text_area" name = "describe" placeholder = "Describe your object int detail..."></textarea>
                     <button class = "button" type = "submit">Submit</button>
                 </form>
                 <div class = "contact-inf">
@@ -233,5 +256,18 @@
             </div>
         </div>
     </footer>
+    <div class="modal off">
+        <div class="modal_shadow"></div>
+        <div class="modal_content">
+            <div class="modal_text">
+                <div>Message sent!</div>
+                <div id="theme"></div>
+                <div id="description"></div>
+                <div id="ok" class="ok">Ok</div>
+            </div>
+
+        </div>
+     </div>
+    <script src="script.js"></script>
 </body>
 </html>
